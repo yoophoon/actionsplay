@@ -1,6 +1,7 @@
 import {defineConfig} from 'vite'
 import crypto from 'crypto'
 export default defineConfig({
+  base:'/actionsplay',
   html:{
     cspNonce:'nonce666'
   },
